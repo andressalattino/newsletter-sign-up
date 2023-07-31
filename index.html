@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div>
+      <section id="tarjeta">
+        <img
+          src="./assets/images/illustration-sign-up-mobile.svg"
+          alt="imagen de inicio"
+          id="imagen"
+        />
+        <div id="container">
+          <h1 id="titulo">Stay updated!</h1>
+          <p id="subtitulo">
+            Join 60,000+ product managers receiving monthly updates on:
+          </p>
+          <ul class="list">
+            <li>
+              <img src="./assets/images/icon-list.svg" alt="imglist" />
+              <span class="text"
+                >Product discovery and building what matters</span
+              >
+            </li>
+            <li>
+              <img src="./assets/images/icon-list.svg" alt="imglist" />
+              <span class="text"
+                >Measuring to ensure updates are a success</span
+              >
+            </li>
+            <li>
+              <img src="./assets/images/icon-list.svg" alt="imglist" />
+              <span class="text">And much more!</span>
+            </li>
+          </ul>
+          <section class="sectionEmail">
+            <h5 id="emailAddress">Email address</h5>
+            <h5 id="emailError">Valid email required</h5>
+         </section>
+          <form>
+            <label for="emails"></label>
+            <input
+              type="email"
+              id="emails"
+              class="emails"
+              name="email "
+              placeholder="email@company.com"
+            />
+          <button  id="boton">
+            <h3>Subscribe to monthly newsletter</h3>
+          </button>
+        </form>
+        </div>
+        <img
+          src="./assets/images/illustration-sign-up-desktop.svg"
+          alt="imagen de inicio"
+          id="imagenDesktop"
+        />
+      </section>
+    </div>
+    <div id="tarjetaFinal">
+      <ul>
+       <li> <img id="imgFinal" src="./assets/images/icon-success.svg" alt="" /></li> 
+       <li> <h1 id="TituloFinal">Thanks for subscribing!</h1></li>
+       <li id="TextoFinal">A confirmation email has been sent to ... please open it and click the button inside to confirm your subscription.</li>
+      <li></form>
+        <button type="button" id="botonFinal">
+          <h3>Dismiss message</h3>
+        </button>
+      </li>
+      </ul>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
